@@ -1,0 +1,13 @@
+To do the coloring on the object surface to make a more realistic 3D look.There are three types of illumination models: diffuse, ambient, and phong terms. So
+to apply these three illumination principles to generate a plausible RGB color for each 3D unit. Since the
+bunny object consists of multiple triangles. For this assignment,I used the flat shading mode to render the
+Bunny object. In other word, the shading unit is a triangle. All the surface points from the same triangle have the
+same RGB color.
+Correct keyboard callback function to switch between different views.
+hit “0” to show the Bunny with no shading at all (a single color for all the triangles).
+- hit “1” to show the Bunny with only diffuse and ambient terms. The result looks like a plaster
+material.
+- hit “2” to show the Bunny with diffuse, ambient, and phong terms. The result may look like different
+types of materials, depending on your choice of the exponential p for the phong terms, e.g. china
+material (p = [55, 100], metal material p = [0.1, 1.0]).
+- hit key “M” or “m" only to show the mesh lines (no triangle surface).
